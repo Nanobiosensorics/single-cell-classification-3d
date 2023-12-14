@@ -1,0 +1,20 @@
+name: nanobio
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.6
+  - matplotlib=3.6.0
+  - scikit-image=0.19.3
+  - numpy=1.23.3
+  - scipy=1.9.1
+  - pip=22.2.2
+  - plotly=5.10.0
+  - pandas=1.5.0
+  - pip:
+    - PyQt5
+    - traitlets==4.3.2
+    - ipykernel==6.0.0
+    - ipython==7.23.1
+    - opencv-python-headless==4.6.0.66
+    - openpyxl==3.0.10
